@@ -13,21 +13,26 @@ class Solution {
         
         // add all banned words to a set
         for (int i = 0; i < banned.length; i++) set_of_banned_words.add(banned[i]);
-
+        
         for (int i = 0; i < words.length; i++) {
-            // If the set contains the word already
-            // increment the count
-            if (set_of_words.contains(words[i]) && !set_of_banned_words.contains(words[i]))
+            words[i] = words[i].toLowerCase(); // Convert to lower case
+            
+            // If the word is part of the set of valid words
+            if (!set_of_banned_words.contains(words[i]))
             {
-                temp = words[i];
-                count++;
-            }
-            else if (!set_of_words.contains(words[i])){
-                count = 0;
                 set_of_words.add(words[i]);
+                System.out.println("Note: Adding '" + words[i] + "' to the set\n");
+                if (set_of_words.contains(words[i]))
+                {
+                    // Set temporary word as result
+                    temp = words[i];
+                    count++;
+                }
+                // Reset count and add to set
+                count = 0;
             }
-            System.out.println("Current word: " + words[i] + ", Temp is: " + temp);
         }
-        return temp;
+        System.out.println("TEmp is: " + temp);
+        return (set_of_words.contains(temp)) ? temp: words[0].toLowerCase() ;
     }
 }
