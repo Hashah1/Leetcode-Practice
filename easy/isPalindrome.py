@@ -25,7 +25,7 @@ class Solution(object):
     #         node = node.next
     #     return True
 
-   def isPalindrome(self, head):
+    def isPalindrome(self, head):
         """
         :type head: ListNode
         :rtype: bool
