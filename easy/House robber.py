@@ -5,10 +5,8 @@ class Solution(object):
         :rtype: int
         """
         # Previous max holds the most recent sum of robberies
-        prev_max = 0
         # Previous max holds the sum two houses before
-        prev_prev_max = 0
-        tmp = prev_max
+        prev_max = prev_prev_max = tmp = 0
         for num in nums:
             prev_prev_max = tmp
             tmp = prev_max
@@ -16,8 +14,3 @@ class Solution(object):
             # two houses ago.
             prev_max = max(prev_max, prev_prev_max + num)
         return prev_max
-       
-if __name__ == "__main__":
-    a = Solution()
-    a.rob([1,2,3,1])
-    a.rob([2,7,9,3,1])
