@@ -16,7 +16,3 @@ class Solution(object):
             if i1 != -1 and i2 != -1: 
                 min_dist = min(min_dist, abs(i1-i2))
         return min_dist
-
-if __name__ == "__main__":
-    a = Solution()
-    a.shortestDistance(["a", "a", "b", "b"], "a", "b")
