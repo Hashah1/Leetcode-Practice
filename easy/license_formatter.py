@@ -5,24 +5,29 @@ class Solution(object):
         :type K: int
         :rtype: str
         """
-        # Split into respective groups
-        license_groups = S.split('-')  # 5F3Z-2e-9-w -> [5F3Z, 2e, 9, w]
-        print(license_groups)
-        for j in range(len(license_groups) - 1, -1, -1 ):
-            if j >= len(license_groups):
-                j = len(license_groups) - 1
-            # Check the length of the group and rearrange accordingly.
-            while len(license_groups[j]) != K:
-                if len(license_groups[j]) < K:  # Expand group
-                    # Grab a character from end of prev_group
-                    license_groups[j] = license_groups[j - 1][-1] + license_groups[j]
-                    # Update previous group
-                    license_groups[j - 1] = license_groups[j - 1][:-1]
-                    # Delete any empty groups
-                    if license_groups[j - 1] is '':
-                        del license_groups[j - 1]
-                        j -= 1
-        pass
+        res = ""
+        i = len (S) - 1
+        count = 0  # Record char count for comparison with K.
+        # Loop through string backwards
+        while i >= 0:
+            val = S[i].upper()
+            if val == '-':
+                # Move on to next (i - 1)th value
+                i -= 1
+            else:
+                # If we have group of K characters
+                if count == K and count != 0:
+                    # Insert the value at 0th pos of res
+                    res = '-' + res
+                    # Reset the count
+                    count = 0
+                else:  # If any other character is encountered
+                    # Insert to the result
+                    res = val + res
+                    # Increment count
+                    count += 1
+                    i -= 1
+
 
             
 if __name__ == "__main__":
