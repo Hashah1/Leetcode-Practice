@@ -7,6 +7,7 @@
 
 class Solution(object):
     traversal_list = []
+
     def inorderTraversal(self, root):
         """
         :type root: TreeNode
@@ -14,7 +15,8 @@ class Solution(object):
         """
         self.traversal_list = []
         return self.iterative_sol(root)
-    def recursive_sol(self,root):    
+
+    def recursive_sol(self,root):
         # Terminating condition.
         if root:
             self.recursive_sol(root.left)
@@ -22,7 +24,6 @@ class Solution(object):
             self.recursive_sol(root.right)
         return self.traversal_list
 
-    
     def iterative_sol(self,root):
         stk = []
         if not root:
