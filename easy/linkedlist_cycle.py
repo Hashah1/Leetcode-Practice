@@ -9,15 +9,14 @@ class Solution(object):
         """
         :type head: ListNode
         :rtype: bool
-        """ 
-        fast = slow = head
-        # Iterate until two pointers cross path.
-        while fast and fast.next:
-            # For every slow pointer iteration, 
-            # iterate fast ptr two places.
-            # They are bound to meet if there's a cycle.
+        """
+        slow = fast = head
+        if head.next:
+            fast = fast.next
+
+        while fast.next and fast.next.next:
+            if fast == slow:
+                return True
             slow = slow.next
             fast = fast.next.next
-            if fast is slow:
-                return True
         return False
