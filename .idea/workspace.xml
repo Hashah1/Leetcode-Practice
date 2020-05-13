@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="" />
+    <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/93. Restore IP Addresses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/133. Clone Graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/399. Evaluate Division.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/93. Restore IP Addresses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -64,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/log_reorder.py" />
-        <option value="$PROJECT_DIR$/medium/construct_tree_2.py" />
         <option value="$PROJECT_DIR$/medium/connect_right_ptr_tree.py" />
         <option value="$PROJECT_DIR$/medium/inorder_traversal.py" />
         <option value="$PROJECT_DIR$/medium/LCA_binarytree.py" />
@@ -115,6 +134,8 @@
         <option value="$PROJECT_DIR$/medium/LC 215:kth-largest-element-in-an-array.py" />
         <option value="$PROJECT_DIR$/medium/211. Add and Search Word - Data Structure Design.py" />
         <option value="$PROJECT_DIR$/medium/133. Clone Graph.py" />
+        <option value="$PROJECT_DIR$/medium/399. Evaluate Division.py" />
+        <option value="$PROJECT_DIR$/medium/93. Restore IP Addresses.py" />
       </list>
     </option>
   </component>
@@ -270,7 +291,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="173" width="1440" height="877" extended-state="1" />
+    <frame x="1" y="173" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.16913319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
@@ -400,20 +422,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easy/merge_two_sorted_lists_recur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/design_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -714,6 +722,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/399. Evaluate Division.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/93. Restore IP Addresses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
