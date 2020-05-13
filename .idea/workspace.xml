@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/133. Clone Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/medium/133. Clone Graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -273,8 +270,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="173" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="173" width="1440" height="877" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.16913319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
@@ -287,7 +283,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.11082803" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24968153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3656051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -717,7 +713,7 @@
     <entry file="file://$PROJECT_DIR$/medium/133. Clone Graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
