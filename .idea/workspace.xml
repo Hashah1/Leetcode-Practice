@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/637. Average of Levels in Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/973. K Closest Points to Origin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/LC 662: maximum-width-of-binary-tree.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/637. Average of Levels in Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/swapPairs.py" />
         <option value="$PROJECT_DIR$/easy/pascals_triangle.py" />
         <option value="$PROJECT_DIR$/easy/pascal_triangle_2.py" />
         <option value="$PROJECT_DIR$/easy/fib_memo.py" />
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/medium/17. Letter Combinations of a Phone Number.py" />
         <option value="$PROJECT_DIR$/medium/79. Word Search.py" />
         <option value="$PROJECT_DIR$/medium/637. Average of Levels in Binary Tree.py" />
+        <option value="$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py" />
       </list>
     </option>
   </component>
@@ -330,7 +330,7 @@
     <frame x="1" y="173" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.16842847" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.16842847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
       <window_info id="Favorites" order="2" sideWeight="0.16235293" side_tool="true" weight="0.16576251" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,7 +341,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35031846" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35031846" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3656051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -458,13 +458,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/intersection_2_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/remove_nth_from_end_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -775,7 +768,14 @@
     <entry file="file://$PROJECT_DIR$/medium/637. Average of Levels in Binary Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
