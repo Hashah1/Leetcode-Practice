@@ -10,14 +10,16 @@ class Solution:
             # 1: Create a result min_heap which contains all distances
             # 2: Loop over all points, calculate its distance and add to heap along with its point
             # 3: Pop kth element from heap and add each popped element to result list
-
+            
+            # UPDATE: TC =  nlog(n) + Klog(n)
+            #         SC = O(n) + O(K)
             heap = []
-            for point in points: # O(n)
+            for point in points: # O(n), n = len(points)
                 e_dist = self.get_distance(point[0], point[1]) # O(1)
-                heappush(heap, (e_dist, point)) # O(logh)
+                heappush(heap, (e_dist, point)) # O(logh) x O(log(n)), n = total nodes in tree., log(n) is hiehgt of tree
             res = []
-            for i in range(K): # O(n)
-                res.append(heappop(heap)[1]) # O(logh)
+            for i in range(K): # O(n), n = len(points)
+                res.append(heappop(heap)[1]) # O(log(n)), n = total nodes in tree.
             return res
 
         def max_heap_implementation():
@@ -30,16 +32,19 @@ class Solution:
             # 2: Loop over all points, calculate its distance and add to heap along with its point
             # 3: Pop kth element from heap and add each popped element to result list
             """
+            # UPDATED: TC = O(nlogk) + O(k) , SC: O(k)
             heap = []
-            for point in points: # O(n)
+            for point in points: # O(n), n = points
                 e_dist = -1*self.get_distance(point[0], point[1]) # O(1)
-                heappush(heap, (e_dist, point))  # O(logh)
+                heappush(heap, (e_dist, point))  # O(logh).. x O(log(k))
+                if len(heap) == K:
+                    # Pop from heap
+                    heappop(heap) # O(log(k))
             res = []
-            for i in range(len(heap) - K):  # O(len(heap) - K) = O(c1)
-                heappop(heap)  # O(logh)
 
             for i in heap:  # O(K)
                 res.append(i[1])  # O(1)
+#                 res.append(heappop(heap)) # O(log(k)) fast if sorted order is required
             return res
 
     def get_distance(self, p_0, p_1):
