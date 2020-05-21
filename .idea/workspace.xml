@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/103. Binary Tree Zigzag Level Order Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/863. All Nodes Distance K in Binary Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/17. Letter Combinations of a Phone Number.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/79. Word Search.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,17 +37,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="90">
               <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/103. Binary Tree Zigzag Level Order Traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state relative-caret-position="463">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/863. All Nodes Distance K in Binary Tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/pascal_triangle_2.py" />
         <option value="$PROJECT_DIR$/easy/fib_memo.py" />
         <option value="$PROJECT_DIR$/easy/Climbin stairs.py" />
         <option value="$PROJECT_DIR$/easy/reverse_nodes.py" />
@@ -172,14 +171,15 @@
         <option value="$PROJECT_DIR$/medium/637. Average of Levels in Binary Tree.py" />
         <option value="$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py" />
         <option value="$PROJECT_DIR$/medium/103. Binary Tree Zigzag Level Order Traversal.py" />
+        <option value="$PROJECT_DIR$/medium/863. All Nodes Distance K in Binary Tree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="76" />
+    <option name="y" value="155" />
+    <option name="width" value="1547" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -327,10 +327,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="76" y="155" width="1547" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.16842847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.15661861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
       <window_info id="Favorites" order="2" sideWeight="0.16235293" side_tool="true" weight="0.16576251" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,7 +341,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35031846" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30726257" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3656051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -458,9 +458,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/palindrom_substrings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/oddEvenList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -730,6 +727,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/medium/LC 215:kth-largest-element-in-an-array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -765,17 +769,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py">
+    <entry file="file://$PROJECT_DIR$/medium/103. Binary Tree Zigzag Level Order Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="463">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/103. Binary Tree Zigzag Level Order Traversal.py">
+    <entry file="file://$PROJECT_DIR$/medium/863. All Nodes Distance K in Binary Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="543">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
         </state>
       </provider>
     </entry>
