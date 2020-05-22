@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/easy/13. Roman to Integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/12. Integer to Roman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/1249. Minimum Remove to Make Valid Parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/515. Find Largest Value in Each Tree Row.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/103. Binary Tree Zigzag Level Order Traversal.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/12. Integer to Roman.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/1249. Minimum Remove to Make Valid Parentheses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -122,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/reverse_nodes.py" />
         <option value="$PROJECT_DIR$/medium/myPow.py" />
         <option value="$PROJECT_DIR$/easy/merge_two_sorted_lists_recur.py" />
         <option value="$PROJECT_DIR$/easy/kth_symbol_in_grammar.py" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/medium/863. All Nodes Distance K in Binary Tree.py" />
         <option value="$PROJECT_DIR$/easy/13. Roman to Integer.py" />
         <option value="$PROJECT_DIR$/medium/12. Integer to Roman.py" />
+        <option value="$PROJECT_DIR$/medium/1249. Minimum Remove to Make Valid Parentheses.py" />
       </list>
     </option>
   </component>
@@ -459,13 +458,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/is_symmetric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/pascal_triangle_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -781,6 +773,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/1249. Minimum Remove to Make Valid Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
