@@ -13,8 +13,8 @@ class WordDictionary:
 
     Better option:
     Trie
-    -> Time Complexity: addition: O(len(word)), search: O(len(word)) ??? What about the for loop in the word_finder() def
-    -> Space Complexity: O(len(max_word)), max_word is the largest word added to trie.
+    -> Time Complexity: addition: O(2^h), search: O(2^h), h - height -- Updated with correct complexity!
+    -> Space Complexity: O(2^h), h = height -- Updated with correct complexity!
     """
 
     class Node():
