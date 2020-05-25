@@ -1,8 +1,8 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         """
-        Time Complexity: O(len(digit) ^ len(digits))
-        Space Complexity:
+        Time Complexity: O(possibility ^ len(digits)), possibility = 3 or 4
+        Space Complexity: O(possibility ^ len(digits)), possibility = 3 or 4
         """
         graph = {
             '2': ['a', 'b', 'c'],
