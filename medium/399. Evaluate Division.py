@@ -6,11 +6,9 @@ class Solution:
             O(len(equations))
 
         2. DFS for each query
-            O(len(queries) * depth), depth = all nodes from dividend to divisor.
-            Worst Case: depth = all variables in equations.
-            Best Case: same var division
+            UPDATED: O(len(queries) * len(equations))
         Space Complexity:
-        O(depth), depth = all nodes or variables extracted from equations list.
+        O(len(equations))
 
         """
         graph = defaultdict(list)
