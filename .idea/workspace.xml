@@ -4,7 +4,6 @@
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/medium/654. Maximum Binary Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/6. ZigZag Conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/6. ZigZag Conversion.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,16 +70,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medium/6. ZigZag Conversion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="31" selection-start-line="31" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/654. Maximum Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
@@ -171,8 +170,8 @@
         <option value="$PROJECT_DIR$/medium/442. Find All Duplicates in an Array.py" />
         <option value="$PROJECT_DIR$/medium/767. Reorganize String.py" />
         <option value="$PROJECT_DIR$/medium/230. Kth Smallest Element in a BST.py" />
-        <option value="$PROJECT_DIR$/medium/6. ZigZag Conversion.py" />
         <option value="$PROJECT_DIR$/medium/654. Maximum Binary Tree.py" />
+        <option value="$PROJECT_DIR$/medium/6. ZigZag Conversion.py" />
       </list>
     </option>
   </component>
@@ -352,20 +351,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1547" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.2051114" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.2051114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
       <window_info id="Favorites" order="2" sideWeight="0.16235293" side_tool="true" weight="0.16576251" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22032085" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4522293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4522293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29299363" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3656051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -461,16 +459,6 @@
           <url>file://$PROJECT_DIR$/easy_top_interview/first_unique_char_str.py</url>
           <line>14</line>
           <option name="timeStamp" value="209" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/medium/6. ZigZag Conversion.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="211" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/medium/6. ZigZag Conversion.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="212" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -811,17 +799,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/6. ZigZag Conversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="31" selection-start-line="31" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/654. Maximum Binary Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/6. ZigZag Conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
