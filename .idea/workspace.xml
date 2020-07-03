@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/1095. Find in Mountain Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/636. Exclusive Time of Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/767. Reorganize String.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/230. Kth Smallest Element in a BST.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hard/1095. Find in Mountain Array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
               <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/636. Exclusive Time of Functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy_top_interview/move_zeroes.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/two_sum.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/valid_sudoku.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/reverse_int.py" />
@@ -172,14 +171,15 @@
         <option value="$PROJECT_DIR$/medium/562. Longest Line of Consecutive One in Matrix.py" />
         <option value="$PROJECT_DIR$/medium/845. Longest Mountain in Array.py" />
         <option value="$PROJECT_DIR$/hard/1095. Find in Mountain Array.py" />
+        <option value="$PROJECT_DIR$/medium/636. Exclusive Time of Functions.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="23" />
-    <option name="width" value="1547" />
-    <option name="height" value="877" />
+    <option name="x" value="3" />
+    <option name="y" value="27" />
+    <option name="width" value="1437" />
+    <option name="height" value="872" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -320,10 +320,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6. ZigZag Conversion" />
       <item itemvalue="Python.pascal_triangle_2" />
-      <item itemvalue="Python.reconstruct_itinerary" />
       <item itemvalue="Python.reverse_nodes" />
+      <item itemvalue="Python.reconstruct_itinerary" />
+      <item itemvalue="Python.6. ZigZag Conversion" />
     </list>
     <recent_temporary>
       <list>
@@ -355,10 +355,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1547" height="877" extended-state="0" />
+    <frame x="3" y="27" width="1437" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.2051114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.2210452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
       <window_info id="Favorites" order="2" sideWeight="0.16235293" side_tool="true" weight="0.16576251" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,7 +369,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29299363" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2948718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3656051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -492,13 +492,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy_top_interview/reverse_int.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy_top_interview/first_unique_char_str.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -816,6 +809,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/636. Exclusive Time of Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
         </state>
       </provider>
     </entry>
