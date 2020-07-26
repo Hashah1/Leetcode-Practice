@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/827. Making A Large Island.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy/766. Toeplitz Matrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hard/827. Making A Large Island.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="511">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/easy/766. Toeplitz Matrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -112,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy_top_interview/reverse_int.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/first_unique_char_str.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/anagram.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/proofpoint_coding_challenge.py" />
@@ -163,6 +171,7 @@
         <option value="$PROJECT_DIR$/medium/636. Exclusive Time of Functions.py" />
         <option value="$PROJECT_DIR$/medium/he.py" />
         <option value="$PROJECT_DIR$/hard/827. Making A Large Island.py" />
+        <option value="$PROJECT_DIR$/easy/766. Toeplitz Matrix.py" />
       </list>
     </option>
   </component>
@@ -182,6 +191,11 @@
             <path>
               <item name="Leetcode-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-Practice" type="b2602c69:ProjectViewProjectNode" />
@@ -305,10 +319,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6. ZigZag Conversion" />
       <item itemvalue="Python.pascal_triangle_2" />
-      <item itemvalue="Python.reconstruct_itinerary" />
       <item itemvalue="Python.reverse_nodes" />
+      <item itemvalue="Python.reconstruct_itinerary" />
+      <item itemvalue="Python.6. ZigZag Conversion" />
     </list>
     <recent_temporary>
       <list>
@@ -343,7 +357,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.22057787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8376471" visible="true" weight="0.22057787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.018083183" />
       <window_info id="Favorites" order="2" sideWeight="0.16235293" side_tool="true" weight="0.16576251" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,7 +368,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1745223" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1745223" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3656051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -471,7 +485,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/reconstruct_itinerary.py" />
     <entry file="file://$PROJECT_DIR$/medium/LC 1247: min_swaps_str_equal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -799,8 +812,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hard/827. Making A Large Island.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        <state relative-caret-position="511">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/766. Toeplitz Matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
         </state>
       </provider>
     </entry>
