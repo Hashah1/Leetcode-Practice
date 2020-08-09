@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/11. Container With Most Water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/15. 3Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/973. K Closest Points to Origin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/636. Exclusive Time of Functions.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/11. Container With Most Water.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/15. 3Sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy_top_interview/anagram.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/proofpoint_coding_challenge.py" />
         <option value="$PROJECT_DIR$/easy_top_interview/atoi.py" />
         <option value="$PROJECT_DIR$/medium/reconstruct_itinerary.py" />
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/hard/827. Making A Large Island.py" />
         <option value="$PROJECT_DIR$/easy/766. Toeplitz Matrix.py" />
         <option value="$PROJECT_DIR$/medium/11. Container With Most Water.py" />
+        <option value="$PROJECT_DIR$/medium/15. 3Sum.py" />
       </list>
     </option>
   </component>
@@ -319,10 +319,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6. ZigZag Conversion" />
       <item itemvalue="Python.pascal_triangle_2" />
-      <item itemvalue="Python.reconstruct_itinerary" />
       <item itemvalue="Python.reverse_nodes" />
+      <item itemvalue="Python.reconstruct_itinerary" />
+      <item itemvalue="Python.6. ZigZag Conversion" />
     </list>
     <recent_temporary>
       <list>
@@ -485,13 +485,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/connect_right_ptr_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/93. Restore IP Addresses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -815,6 +808,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/15. 3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
