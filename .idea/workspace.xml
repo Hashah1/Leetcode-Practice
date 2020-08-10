@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b11614a-b633-4fa1-9df1-2b0d732e88cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/easy/1290. Convert Binary Number in a Linked List to Integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/909. Snakes and Ladders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/22. Generate Parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/909. Snakes and Ladders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="241">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cuisin_search/App.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/22. Generate Parentheses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -122,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medium/min_swaps_str_equal.py" />
         <option value="$PROJECT_DIR$/medium/LC 662: maximum-width-of-binary-tree.py" />
         <option value="$PROJECT_DIR$/medium/973. K Closest Points to Origin.py" />
         <option value="$PROJECT_DIR$/medium/LC 215:kth-largest-element-in-an-array.py" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/medium/16. 3Sum Closest.py" />
         <option value="$PROJECT_DIR$/easy/1290. Convert Binary Number in a Linked List to Integer.py" />
         <option value="$PROJECT_DIR$/medium/909. Snakes and Ladders.py" />
+        <option value="$PROJECT_DIR$/medium/22. Generate Parentheses.py" />
       </list>
     </option>
   </component>
@@ -491,13 +490,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/79. Word Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/637. Average of Levels in Binary Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -819,8 +811,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/909. Snakes and Ladders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="241">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/22. Generate Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
